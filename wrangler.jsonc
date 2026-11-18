@@ -1,0 +1,9 @@
+// Onde Parei — config pra rodar LOCAL (npx wrangler dev). Publicar: sh publicar.sh (Cloudflare Pages)
+// Chaves locais em .dev.vars (TMDB_TOKEN, SEGREDO). No Pages: npx wrangler pages secret put TMDB_TOKEN --project-name onde-parei
+{
+  "name": "onde-parei-local",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "public", "binding": "ASSETS", "not_found_handling": "single-page-application", "run_worker_first": ["/api/*"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "onde-parei-portfolio", "database_id": "8afae1b6-9724-4a01-921d-8dc2f993fe2a" }]
+}

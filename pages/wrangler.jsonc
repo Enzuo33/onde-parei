@@ -1,0 +1,7 @@
+// Publicação no Cloudflare Pages. Rode: sh ../publicar.sh
+{
+  "name": "onde-parei",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-10-01",
+  "d1_databases": [{ "binding": "DB", "database_name": "onde-parei-portfolio", "database_id": "8afae1b6-9724-4a01-921d-8dc2f993fe2a" }]
+}

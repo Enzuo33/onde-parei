@@ -1,0 +1,18 @@
+{
+  "name": "Onde Parei",
+  "short_name": "Onde Parei",
+  "description": "Filmes, séries e animes: marque onde parou, avalie e veja o que seus amigos estão assistindo.",
+  "lang": "pt-BR",
+  "start_url": "/#/inicio",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
+  "icons": [
+    { "src": "/icones/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icones/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icones/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icones/icone.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

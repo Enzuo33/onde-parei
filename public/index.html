@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Onde Parei</title>
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="description" content="Filmes, séries e animes: marque onde parou, avalie e veja o que seus amigos estão assistindo.">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icones/icone.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icones/icone-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Onde Parei">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/estilo.css?v=11">
+</head>
+<body>
+  <main id="tela"></main>
+  <nav id="abas" hidden>
+    <a href="#/inicio" data-aba="inicio"><svg viewBox="0 0 24 24"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg><span>Início</span></a>
+    <a href="#/buscar" data-aba="buscar"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span>Buscar</span></a>
+    <a href="#/lista" data-aba="lista"><svg viewBox="0 0 24 24"><path d="M5 6h14M5 12h14M5 18h9"/></svg><span>Minha lista</span></a>
+    <a href="#/perfil" data-aba="perfil"><svg viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.8"/><path d="M4.5 20c1.2-3.6 4-5.4 7.5-5.4s6.3 1.8 7.5 5.4"/></svg><span>Perfil</span></a>
+  </nav>
+  <div id="aviso" role="status"></div>
+  <script src="/app.js?v=11"></script>
+</body>
+</html>
